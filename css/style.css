@@ -1,0 +1,440 @@
+@font-face
+{
+font-family: Neon;
+src: url('fonts/Neon.ttf')
+    ,url('fonts/Neon.eot'); /* IE9 */
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+	font-family: Neon, sans-serif;
+}
+
+#all {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 103px auto;
+	display: block;
+	position: relative;
+}
+
+#all:after {
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+body {
+	background: url(../estru/bg_index.jpg) no-repeat top center #97659A;
+}
+
+body.demas {
+	background: url(../estru/bg_demas.png) no-repeat top center #97659A;
+}
+
+body.contato {
+	background: url(../estru/bg_contato.png) no-repeat top center #97659A;
+}
+
+
+section#cabecalho {
+	width: 1000px;
+	height: 200px;
+	/*border: 1px solid white;*/
+	margin: 0px auto 0px auto;
+}
+
+section#cabecalho [alt="Logo Porto Bello Brindes"] {
+	margin: 40px 0px 0px 0px;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	position: relative;
+	top: 65px;
+	right: 20px;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 0px 8px 0px 0px;
+}
+
+nav ul li a {
+	font-size: 26px;
+	text-decoration: none;
+	color: #39004B;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+nav ul li a:hover {
+	background-color: #CC99CC;
+	color: #39004B;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+nav ul li a.active {
+	background-color: #CC99CC;
+	color: #39004B;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+}
+
+section.banner {
+	width: 330px;
+	height: 150px;
+	float: right;
+	margin: 250px 100px 0px 0px;
+}
+
+/*---------------------- EMPRESA -------------------------*/
+
+section#empresa {
+	width: 1000px;
+	height: auto;
+	/*border: 1px solid blue;*/
+	text-align: center;
+	
+}
+
+section#empresa h1 {
+	width: 300px;
+	height: 60px;
+	background: url(../estru/titulo_empresa.png) no-repeat top center;
+	margin: 30px 0px 0px 0px;
+}
+
+section#empresa p {
+	width: 900px;
+	/*border: 1px solid black;*/
+	margin: 50px auto 0px auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 17px;
+	
+}
+
+section#empresa img {
+	margin: 70px 10px 0px 0px;
+	text-align: center;
+}
+
+
+/*---------------------PRODUTOS-------------------------*/
+
+section#produtos {
+	width: 1000px;
+	height: auto;
+	/*border: 1px solid blue;*/
+}
+section#produtos h1 {
+	width: 300px;
+	height: 60px;
+	background: url(../estru/titulo_produtos.png) no-repeat top center;
+	margin: 30px 0px 0px 0px;
+}
+
+section#produtos h2 {
+	float: right;
+	position: relative;
+	right: 15px;
+	color: #EBEBF8;
+	width: 720px;
+	box-sizing: border-box;
+	padding: 3px 9px 0px 0px;
+	text-align: center;
+	font-size: 27px;
+
+}
+
+section#produtos ul {
+	list-style: none;
+	width: 172px;
+	border: 5px solid #663399;
+	border-radius: 8px;
+	padding: 5px 5px 13px 5px;
+	float: left;
+	margin: 55px 0px 0px 45px;
+	
+}
+
+section#produtos ul li {
+	list-style: none;
+	text-align: left;
+	color: #EBEBF8;
+	margin: 0px 0px 0px 0px;
+	border-bottom: 1px solid #CECEFF;
+	padding: 3px 0px 3px 0px;
+	box-sizing: border-box;
+}
+
+section#produtos ul li:hover {
+background-color: #CC99CC;
+}
+
+section#produtos ul li.active {
+background-color: #CC99CC;
+}
+
+section#produtos ul li a {
+	color:#39004B;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+section.imagens_produtos {
+		width: 750px;
+		height: 1190px;
+		/*border: 1px solid green;*/
+		float: right;
+		margin: 10px 0px 0px 0px;
+		overflow: auto;
+		/*border: 1px solid black;*/
+}
+
+section.imagens_produtos h6 {
+	font-size: 20px;
+}
+
+section.imagens_produtos figure {
+	width: 150px;
+	height: 178px;
+	border: 4px solid #663399;
+	overflow: hidden;
+	float: left;
+	margin: 10px 0px 10px 21px;
+	overflow: hidden;
+}
+
+
+
+
+/*--------------------------CONTATO----------------------------*/
+
+section#contato {
+	width: 1000px;
+	height: 780px;
+	border: 1px solid transparent;
+	margin: 0px auto 0px auto;
+}
+
+section#contato p {
+	width: 420px;
+	height: 110px;
+	font-size: 15px;
+	margin: 120px 0px 0px 10px;
+}
+
+
+section#contato form {
+	float: right;
+	margin: 160px 0px 0px 0px;
+}
+
+section#contato input {
+	display: block;
+	margin: 0px 15px 25px 0px;
+	width: 355px;
+	height: 20px;
+	font-size: 16px;
+}
+
+section#contato input:focus {
+	outline: none;
+	border-bottom: 2px solid #333;
+}
+
+section#contato #name {
+	width: 423px;
+	background-color: transparent;
+	
+
+}
+
+section#contato #email {
+	width: 417px;
+	margin: 0px 0px 25px 10px;
+	background-color: transparent;
+}
+
+section#contato #fone {
+	margin: 0px 0px 0px 73px;
+	background-color: transparent;
+}
+
+section#contato textarea {
+	width: 375px;
+	height: 90px;
+	margin: 24px 0px 0px 50px;
+	font-size: 16px;
+	background-color: transparent;
+}
+
+section#contato textarea:focus {
+	outline: none;
+	border-top: 2px solid #333;
+}
+
+section#contato input[type="image"] {
+	width: 144px;
+	height: 44px;
+	position: relative;
+	right: -280px;
+	top: 10px;
+}
+
+section#contato .error {
+	position: absolute;
+	width: 450px;
+	right: 4%;
+	top: 170px;
+	height: 25px;
+	color: #333;
+	font-size: 17px;
+	background-color: #CBAABF;
+	text-align: center;
+}
+
+
+section#contato .sucesso {
+	position: absolute;
+	width: 340px;
+	right: 10%;
+	top: 150px;
+	height: 25px;
+	color: #333;
+	font-size: 20px;
+	background-color: #CBAABF;
+	text-align: center;
+}
+
+section#contato a[title="voltar"] {
+	font-size: 18px;
+}
+
+div.mapa {
+	width: 526px;
+	height: 152px;
+	border: 5px solid #39084B;
+	margin: 350px 0px 0px 468px;
+}
+
+
+/*----------------- LISTA PRODUTOS INDEX ----------------------*/
+
+section.lista_produtos_all {
+	width: 100%;
+	height: auto;
+	background-color: #39014C;
+	margin: 0px auto 0px auto;
+	position: relative;
+	box-shadow: 0 0 5px 5px #000;
+}
+
+section.lista_produtos {
+	width: 1000px;
+	height: auto;
+	position: relative;
+	margin: 0px auto 0px auto;
+	background-color: #39014C;
+}
+
+section.lista_produtos h6 {
+	color: white;
+	width: 240px;
+	font-size: 20px;
+	box-sizing: border-box;
+	margin: 0px 0px 0px 65px;
+
+}
+
+section.lista_produtos ul {
+	width: 100%;
+	height: auto;
+	margin: 20px 0px 0px 50px;
+	display: block;
+	padding: 0px 0px 20px 0px;
+}
+
+section.lista_produtos ul li {
+	font-size: 15px;
+	margin: 0px 0px 5px 17px;
+	display: inline-table;
+}
+
+section.lista_produtos ul li a {
+	color: #fff;
+	font-weight: 500;
+	width: 220px;
+	height: 20px;
+	display: inline-table;
+	font-size: 15px;
+}
+
+/*-------------------FOOTER---------------------*/
+
+footer {
+	width: 100%;
+	height: 168px;
+	background: url(../estru/bg_footer.jpg) no-repeat center center;
+}
+
+footer .footer_conteudo {
+	width: 1000px;
+	height: 168px;
+	margin: 0px auto 0px auto;
+}
+
+
+footer .footer_conteudo div.endereco {
+	width: 200px;
+	margin: 0px 0px 0px 5px;
+	height: 80px;
+	font-weight: bold;
+	position: relative;
+	top: 40px;
+}
+
+footer .footer_conteudo div.center {
+	text-align: center;
+}
+
+footer .footer_conteudo div.center img {
+	margin: -20px 0px 0px 0px;
+}
+
+footer .footer_conteudo div.center p {
+	margin: 35px 0px 0px 0px;
+	font-weight: bold;
+}
+
+footer .footer_conteudo img[alt="Facebook"] {
+	float: right;
+	width: 39px;
+	height: 39px;
+	margin: -105px 70px 0px 0px;
+}
+
+footer .footer_conteudo img[alt="Agência HRS-Web Desenvolvimento Web"] {
+	float: right;
+	margin: -55px 40px 0px 0px;
+}
+
